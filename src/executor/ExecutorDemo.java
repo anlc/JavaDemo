@@ -1,6 +1,7 @@
 package executor;
 
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Future;
 
 /**
  * Created by n on 2017/11/20.
@@ -13,8 +14,8 @@ public class ExecutorDemo {
         service = ExecutorFactory.create(type);
     }
 
-    public void submit(RunnableClass runnable) {
-        service.submit(runnable);
+    public Future<?> submit(RunnableClass runnable) {
+        return service.submit(runnable);
     }
 
     public void execute(RunnableClass runnable) {
