@@ -14,7 +14,7 @@ public class ExecutorFactory {
             case "cache":
                 service = Executors.newCachedThreadPool();
                 break;
-            case "fixed":
+            case "fixed"://注意：这里创建的线程池限定最大是2
                 service = Executors.newFixedThreadPool(2);
                 break;
             case "single":

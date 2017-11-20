@@ -8,9 +8,9 @@ public class ExecutorMainTest {
     public static void main(String[] args) {
         ExecutorMainTest test = new ExecutorMainTest();
 
-//        test.test("cache");
+        test.test("cache");
 //        test.test("fixed");
-        test.test("single");
+//        test.test("single");
     }
 
     public void test(String type) {

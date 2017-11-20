@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class RunnableClass implements Runnable {
 
-    private static int taskCount = 1;
-    private static int id = taskCount++;
+    private static int taskCount = 0;
+    private final int id = taskCount++;
 
     @Override
     public void run() {
