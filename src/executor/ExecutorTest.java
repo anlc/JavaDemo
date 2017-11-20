@@ -8,10 +8,9 @@ public class ExecutorTest {
     public static void main(String[] args) {
         ExecutorTest test = new ExecutorTest();
 
-//        test.test("cache");
+        test.test("cache");
 //        test.test("fixed");
 //        test.test("single");
-        test.test("custom");
     }
 
     public void test(String type) {
