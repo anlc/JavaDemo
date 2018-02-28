@@ -1,4 +1,4 @@
-package pattern.mvc_pattern;
+package pattern.mvp_pattern;
 
 public class MainClass {
 

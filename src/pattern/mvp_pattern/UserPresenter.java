@@ -1,6 +1,6 @@
-package pattern.mvc_pattern;
+package pattern.mvp_pattern;
 
-import pattern.mvc_pattern.base.BasePresenter;
+import pattern.mvp_pattern.base.BasePresenter;
 
 public class UserPresenter implements BasePresenter {
 

@@ -1,4 +1,4 @@
-package pattern.mvc_pattern.base;
+package pattern.mvp_pattern.base;
 
 public interface BasePresenter {
 

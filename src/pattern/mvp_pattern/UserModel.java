@@ -1,6 +1,6 @@
-package pattern.mvc_pattern;
+package pattern.mvp_pattern;
 
-import pattern.mvc_pattern.base.BaseModel;
+import pattern.mvp_pattern.base.BaseModel;
 
 public class UserModel implements BaseModel {
     @Override

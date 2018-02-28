@@ -1,7 +1,7 @@
-package pattern.mvc_pattern;
+package pattern.mvp_pattern;
 
-import pattern.mvc_pattern.base.BasePresenter;
-import pattern.mvc_pattern.base.BaseView;
+import pattern.mvp_pattern.base.BasePresenter;
+import pattern.mvp_pattern.base.BaseView;
 
 public class UserView implements BaseView {
 
