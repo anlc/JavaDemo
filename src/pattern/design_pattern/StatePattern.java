@@ -4,6 +4,8 @@ package pattern.design_pattern;
  * 状态模式
  * 参考：
  * http://www.runoob.com/design-pattern/state-pattern.html
+ *
+ * 登陆状态，可根据使用状态模式来控制对应操作
  */
 public class StatePattern {
 
