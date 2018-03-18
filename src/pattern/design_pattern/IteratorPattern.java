@@ -4,6 +4,8 @@ package pattern.design_pattern;
  * Created by n on 2018/3/18.
  * 参考：
  * http://www.runoob.com/design-pattern/iterator-pattern.html
+ *
+ * 源码参考：java中的list，map。android中的SQLiteDatabase的query返回cursor
  */
 public class IteratorPattern {
 

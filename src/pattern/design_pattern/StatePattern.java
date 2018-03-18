@@ -6,6 +6,7 @@ package pattern.design_pattern;
  * http://www.runoob.com/design-pattern/state-pattern.html
  *
  * 登陆状态，可根据使用状态模式来控制对应操作
+ * 源码参考：android中WI-FI管理，WifiSettings;
  */
 public class StatePattern {
 
