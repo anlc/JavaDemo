@@ -1,9 +1,11 @@
 package pattern.design_pattern;
 
+import org.junit.Test;
+
 /**
  * 适配器模式
- * 参考：
- * http://www.runoob.com/design-pattern/adapter-pattern.html
+ *
+ * 参考： http://www.runoob.com/design-pattern/adapter-pattern.html
  */
 public class AdapterPattern {
 
@@ -17,7 +19,7 @@ public class AdapterPattern {
         void playMp4(String fileName);
     }
 
-    public static class VlcPlayer implements AdvancedMediaPlayer {
+    public class VlcPlayer implements AdvancedMediaPlayer {
 
         @Override
         public void playVlc(String fileName) {
@@ -30,7 +32,7 @@ public class AdapterPattern {
         }
     }
 
-    public static class Mp4Player implements AdvancedMediaPlayer {
+    public class Mp4Player implements AdvancedMediaPlayer {
 
         @Override
         public void playVlc(String fileName) {
@@ -43,7 +45,7 @@ public class AdapterPattern {
         }
     }
 
-    public static class MediaAdapter implements MediaPlayer {
+    public class MediaAdapter implements MediaPlayer {
 
         AdvancedMediaPlayer mediaPlayer;
 
@@ -65,7 +67,7 @@ public class AdapterPattern {
         }
     }
 
-    public static class AudioPlayer implements MediaPlayer {
+    public class AudioPlayer implements MediaPlayer {
 
         MediaAdapter adapter;
 
@@ -82,7 +84,8 @@ public class AdapterPattern {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void testPattern(){
         AudioPlayer audioPlayer = new AudioPlayer();
         audioPlayer.play("mp3", "beyond the horizon.mp3");
         audioPlayer.play("Mp4", "alone.mp4");

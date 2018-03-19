@@ -1,12 +1,14 @@
 package pattern.design_pattern;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * 命令模式
- * 参考：
- * http://www.runoob.com/design-pattern/command-pattern.html
+ *
+ * 参考：http://www.runoob.com/design-pattern/command-pattern.html
  */
 public class CommandPattern {
 
@@ -14,7 +16,7 @@ public class CommandPattern {
         void execute();
     }
 
-    public static class Stock {
+    public class Stock {
         private String name = "ABC";
         private int quantity = 10;
 
@@ -27,7 +29,7 @@ public class CommandPattern {
         }
     }
 
-    public static class BuyStock implements Order{
+    public class BuyStock implements Order{
 
         private Stock stock;
 
@@ -41,7 +43,7 @@ public class CommandPattern {
         }
     }
 
-    public static class SellStock implements Order{
+    public class SellStock implements Order{
 
         private Stock stock;
 
@@ -55,7 +57,7 @@ public class CommandPattern {
         }
     }
 
-    public static class Broker{
+    public class Broker{
         private List<Order> orderList = new ArrayList<>();
 
         public void takeOrder(Order order) {
@@ -70,7 +72,8 @@ public class CommandPattern {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void testPattern(){
         Stock stock = new Stock();
 
         BuyStock buyStock = new BuyStock(stock);

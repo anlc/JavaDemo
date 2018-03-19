@@ -1,12 +1,14 @@
 package pattern.design_pattern;
 
+import org.junit.Test;
+
 /**
  * 状态模式
- * 参考：
- * http://www.runoob.com/design-pattern/state-pattern.html
+ *
+ * 参考：http://www.runoob.com/design-pattern/state-pattern.html
+ * 源码参考：android中WI-FI管理，WifiSettings;
  *
  * 登陆状态，可根据使用状态模式来控制对应操作
- * 源码参考：android中WI-FI管理，WifiSettings;
  */
 public class StatePattern {
 
@@ -18,7 +20,7 @@ public class StatePattern {
         void doAction(Context context);
     }
 
-    static class StartState implements State{
+    class StartState implements State{
 
         @Override
         public void doAction(Context context) {
@@ -32,7 +34,7 @@ public class StatePattern {
         }
     }
 
-    static class StopState implements State{
+    class StopState implements State{
 
         @Override
         public void doAction(Context context) {
@@ -46,7 +48,8 @@ public class StatePattern {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void testPattern(){
         Context context = new Context();
 
         StartState startState = new StartState();

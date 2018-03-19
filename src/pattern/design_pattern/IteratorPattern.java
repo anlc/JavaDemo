@@ -1,10 +1,11 @@
 package pattern.design_pattern;
 
+import org.junit.Test;
+
 /**
- * Created by n on 2018/3/18.
- * 参考：
- * http://www.runoob.com/design-pattern/iterator-pattern.html
+ * 迭代器模式
  *
+ * 参考：http://www.runoob.com/design-pattern/iterator-pattern.html
  * 源码参考：java中的list，map。android中的SQLiteDatabase的query返回cursor
  */
 public class IteratorPattern {
@@ -19,7 +20,7 @@ public class IteratorPattern {
         Iterator getIterator();
     }
 
-    static class NameRepository implements Container {
+    class NameRepository implements Container {
         public String names[] = {"123", "321", "789"};
 
         @Override
@@ -49,7 +50,8 @@ public class IteratorPattern {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void testPattern(){
         NameRepository repository = new NameRepository();
         Iterator iterator = repository.getIterator();
         while (iterator.hasNext()) {

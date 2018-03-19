@@ -1,7 +1,10 @@
 package pattern.design_pattern;
 
+import org.junit.Test;
+
 /**
  * 桥接模式
+ *
  * 参考：
  * http://www.runoob.com/design-pattern/adapter-pattern.html
  * https://github.com/simple-android-framework/android_design_patterns_analysis/tree/master/bridge/shen0834
@@ -12,7 +15,7 @@ public class BridgePattern {
         void drawCircle(int radius, int x, int y);
     }
 
-    public static class RedCircle implements DrawApi {
+    public class RedCircle implements DrawApi {
 
         @Override
         public void drawCircle(int radius, int x, int y) {
@@ -20,7 +23,7 @@ public class BridgePattern {
         }
     }
 
-    public static class GreenCircle implements DrawApi {
+    public class GreenCircle implements DrawApi {
 
         @Override
         public void drawCircle(int radius, int x, int y) {
@@ -28,7 +31,7 @@ public class BridgePattern {
         }
     }
 
-    public static abstract class Shape {
+    public abstract class Shape {
         protected DrawApi drawApi;
 
         public Shape(DrawApi drawApi) {
@@ -38,7 +41,7 @@ public class BridgePattern {
         protected abstract void draw();
     }
 
-    public static class Circle extends Shape {
+    public class Circle extends Shape {
         private int x, y, radius;
 
         public Circle(DrawApi drawApi, int radius, int x, int y) {
@@ -54,7 +57,8 @@ public class BridgePattern {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void testPattern(){
         new Circle(new RedCircle(), 10, 100, 200).draw();
         new Circle(new GreenCircle(), 10, 100, 200).draw();
     }
