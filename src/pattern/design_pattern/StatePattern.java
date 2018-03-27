@@ -12,8 +12,8 @@ import org.junit.Test;
  */
 public class StatePattern {
 
-    static class Context{
-        public State state;
+    class Context{
+        State state;
     }
 
     interface State{
