@@ -1,4 +1,4 @@
-package pattern.design_pattern;
+package pattern.design_pattern.structural_patterns;
 
 import org.junit.Test;
 
