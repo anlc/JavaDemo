@@ -6,7 +6,7 @@ import org.junit.Test;
  * 迭代器模式
  *
  * 参考：http://www.runoob.com/design-pattern/iterator-pattern.html
- * 源码参考：java中的list，map。android中的SQLiteDatabase的query返回cursor
+ * 源码参考：java中的list，map。android中的SQLiteDatabase的query返回cursor（Android源码设计模式解析与实战 275页）
  */
 public class IteratorPattern {
 

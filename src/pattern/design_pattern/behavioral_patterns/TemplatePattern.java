@@ -6,7 +6,7 @@ import org.junit.Test;
  * 模板模式
  *
  * 参考：http://www.runoob.com/design-pattern/template-pattern.html
- * 源码参考：AsyncTask
+ * 源码参考：AsyncTask （Android源码设计模式解析与实战 281页）
  */
 public class TemplatePattern {
 

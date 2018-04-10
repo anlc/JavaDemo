@@ -6,7 +6,7 @@ import org.junit.Test;
  * 状态模式
  *
  * 参考：http://www.runoob.com/design-pattern/state-pattern.html
- * 源码参考：android中WI-FI管理，WifiSettings;
+ * 源码参考：android中WI-FI管理，WifiSettings;（Android源码设计模式解析与实战 275页）
  *
  * 登陆状态，可根据使用状态模式来控制对应操作
  */

@@ -9,6 +9,7 @@ import java.util.List;
  * 命令模式
  *
  * 参考：http://www.runoob.com/design-pattern/command-pattern.html
+ * 源码参考：Android源码设计模式解析与实战 211页
  */
 public class CommandPattern {
 

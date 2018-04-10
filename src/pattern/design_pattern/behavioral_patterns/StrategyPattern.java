@@ -6,6 +6,7 @@ import org.junit.Test;
  * 策略模式
  *
  * 参考：http://www.runoob.com/design-pattern/strategy-pattern.html
+ * 源码参考：Android动画中的插值器（Android源码设计模式解析与实战 123页）
  */
 public class StrategyPattern {
 
