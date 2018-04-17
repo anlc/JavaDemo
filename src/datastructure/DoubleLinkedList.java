@@ -4,6 +4,10 @@ import org.junit.Test;
 
 import java.util.NoSuchElementException;
 
+/**
+ * 双端列表
+ * 参考：LinkedList
+ */
 public class DoubleLinkedList<T> {
 
     int size;
