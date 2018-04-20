@@ -5,7 +5,9 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
- * 冒泡
+ * 冒泡排序
+ *
+ * 参考：http://www.cnblogs.com/ysocean/p/7896269.html
  */
 public class BubbleSort {
 
