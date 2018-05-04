@@ -205,25 +205,20 @@ public class BinaryTree {
 
     @Test
     public void testTree() {
+        int[] arr = {5, 3, 8, 4, 2, 1, 6, 7, 9};
         BinaryTree tree = new BinaryTree();
-        tree.insert(5);
-        tree.insert(3);
-        tree.insert(8);
-        tree.insert(4);
-        tree.insert(2);
-        tree.insert(1);
-        tree.insert(6);
-        tree.insert(7);
-        tree.insert(9);
-//        System.out.println(tree.find(3).string());
-//        System.out.println();
-//        tree.infixOrder(tree.root);
-//        System.out.println();
-//        tree.preOrder(tree.root);
-//        System.out.println();
-//        tree.postOrder(tree.root);
-//        System.out.println(tree.findMax());
-//        System.out.println(tree.findMin());
+        for(int i=0;i<arr.length;i++) {
+            tree.insert(arr[i]);
+        }
+        System.out.println(tree.find(3).string());
+        System.out.println();
+        tree.infixOrder(tree.root);
+        System.out.println();
+        tree.preOrder(tree.root);
+        System.out.println();
+        tree.postOrder(tree.root);
+        System.out.println(tree.findMax());
+        System.out.println(tree.findMin());
         tree.delete(5);
         System.out.println();
     }

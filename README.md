@@ -1,6 +1,10 @@
 # JavaDemo
 
-    |--executor() 线程池简单示例
+    |--algorithm 算法简单示例
+    
+    |--datastructure 数据结构简单示例
+    
+    |--executor 线程池简单示例
 
     |--pattern
     
