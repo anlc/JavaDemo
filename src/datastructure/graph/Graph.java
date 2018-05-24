@@ -115,6 +115,29 @@ public class Graph {
         }
     }
 
+    //基于深度优先搜索找到最小生成树
+    public void mst() {
+        vertexList[0].wasVisited = true;
+        theStack.push(0);
+        while (!theStack.isEmpty()) {
+            int currentVertex = theStack.peek();
+            int v = getAdjUnvisitedVertex(currentVertex);
+            if (v == -1) {
+                theStack.pop();
+            } else {
+                vertexList[v].wasVisited = true;
+                theStack.push(v);
+
+                displayVertex(currentVertex);
+                displayVertex(v);
+                System.out.print(" ");
+            }
+        }
+
+        for (int i = 0; i < nVertex; i++) {
+            vertexList[i].wasVisited = false;
+        }
+    }
 
     public static void main(String[] args) {
         Graph graph = new Graph();
@@ -137,5 +160,9 @@ public class Graph {
 
         System.out.println("广度优先搜索算法 :");
         graph.breadthFirstSearch();//ABDCE
+
+        System.out.println();
+        System.out.println("----------------------");
+        graph.mst();
     }
 }
