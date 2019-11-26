@@ -1,10 +1,11 @@
 package pattern.design_pattern.behavioral_patterns;
 
 import org.junit.Test;
+import sun.jvm.hotspot.CommandProcessor;
 
 /**
  * 责任链模式
- *
+ * <p>
  * 参考：http://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html
  * 源码参考：Android中对事件分发处理（Android源码设计模式解析与实战 173页）
  */
@@ -61,9 +62,10 @@ public class ChainOfResponsibilityPattern {
     }
 
     @Test
-    public void testPattern(){
+    public void testPattern() {
         AbstractLogger logger = getLogger();
         logger.logMsg(AbstractLogger.INFO, "this is info");
         logger.logMsg(AbstractLogger.ERROR, "this is error");
     }
 }
+
