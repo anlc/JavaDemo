@@ -1,5 +1,6 @@
 package other.concurrenttest;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
@@ -10,16 +11,26 @@ public class Render {
 
     public void renderPage(String source) throws InterruptedException, ExecutionException {
         List<String> imgList = scanImageUrlFromSource(source);
-        CompletionService<ImageData> completionService = new ExecutorCompletionService<>(service);
-        for (String string : imgList) {
-            // 并行的提交多个任务
-            completionService.submit(() -> new ImageData(string));
-        }
+//        CompletionService<ImageData> completionService = new ExecutorCompletionService<>(service);
+//        for (String string : imgList) {
+//            // 并行的提交多个任务
+//            completionService.submit(() -> new ImageData(string));
+//        }
+//
+//        for (int i = 0; i < imgList.size(); i++) {
+//            // 并行的获取每个任务完成的结果
+//            Future<ImageData> take = completionService.take();
+//            take.get().load();
+//        }
 
-        for (int i = 0; i < imgList.size(); i++) {
+        List<Callable<ImageData>> list = new ArrayList<>();
+        for (String string : imgList) {
+            list.add(() -> new ImageData(string));
+        }
+        List<Future<ImageData>> futures = service.invokeAll(list, 2, TimeUnit.SECONDS);
+        for (Future<ImageData> future : futures) {
             // 并行的获取每个任务完成的结果
-            Future<ImageData> take = completionService.take();
-            take.get().load();
+            future.get().load();
         }
         service.shutdown();
     }
