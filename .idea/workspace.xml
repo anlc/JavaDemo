@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801c4c5d-2a22-4559-a165-5e0fc29a6df3" name="Default Changelist" comment="update concurrent test">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/demo/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/concurrenttest/FutureCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/concurrenttest/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/concurrenttest/ReaderThread.java" afterDir="false" />
+    <list default="true" id="801c4c5d-2a22-4559-a165-5e0fc29a6df3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/algs4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algs4/TestAlgs4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algs4/chapter1/TestVisualAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/ConfigThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/ConcurrentPuzzleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/Puzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/PuzzleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/SequentialPuzzleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/ValueLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/concurrenttest/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/ExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/executor/ExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/ExecutorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/executor/ExecutorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/ExecutorMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/executor/ExecutorMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/RunnableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/executor/RunnableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/BounderHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/semaphore/BounderHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/CellularAutomata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/barrier/CellularAutomata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/barrier/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/FutureCancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/FutureCancel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/FutureRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/FutureRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/JoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/thread_demo/JoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/Memoizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/Memoizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/Preloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/Preloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/ReaderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/ReaderThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/TestHarness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/TestHarness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/concurrenttest/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread_demo/InterruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/thread_demo/InterruptDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread_demo/SyncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/thread_demo/SyncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread_demo/ThreadCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/thread_demo/ThreadCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread_demo/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/thread_demo/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread_demo/ThreadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrenttest/thread_demo/ThreadHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,47 +50,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/Render.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/demo/TestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/FutureCancel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -72,6 +68,7 @@
       <find>completionQueue</find>
       <find>take</find>
       <find>group</find>
+      <find>puzzle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,19 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/annotation/demo/Test.java" />
-        <option value="$PROJECT_DIR$/src/annotation/demo/Testable.java" />
-        <option value="$PROJECT_DIR$/src/annotation/demo/UseCase.java" />
-        <option value="$PROJECT_DIR$/src/annotation/demo/PasswordUtils.java" />
-        <option value="$PROJECT_DIR$/src/annotation/demo/UseCaseTracker.java" />
-        <option value="$PROJECT_DIR$/src/annotation/json/ClassBean.java" />
-        <option value="$PROJECT_DIR$/src/annotation/json/Json.java" />
-        <option value="$PROJECT_DIR$/src/annotation/json/JsonTest.java" />
-        <option value="$PROJECT_DIR$/sdk/src/json/ClassDef.java" />
-        <option value="$PROJECT_DIR$/sdk/src/json/JsonParser.java" />
-        <option value="$PROJECT_DIR$/sdk/src/json/ClassBean.java" />
-        <option value="$PROJECT_DIR$/sdk/src/json/StringDef.java" />
-        <option value="$PROJECT_DIR$/sdk/src/json/JsonTest.java" />
         <option value="$PROJECT_DIR$/sdk/src/json/Processor.java" />
         <option value="$PROJECT_DIR$/src/annotation/processor/Simple.java" />
         <option value="$PROJECT_DIR$/src/annotation/processor/SimpleTest.java" />
@@ -127,6 +111,23 @@
         <option value="$PROJECT_DIR$/src/other/concurrenttest/ReaderThread.java" />
         <option value="$PROJECT_DIR$/src/algorithm/demo/TestClass.java" />
         <option value="$PROJECT_DIR$/src/other/TestBuild.java" />
+        <option value="$PROJECT_DIR$/src/other/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/algs4/TestAlgs4.java" />
+        <option value="$PROJECT_DIR$/src/algs4/chapter1/TestVisualAccumulator.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/semaphore/BounderHashSet.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/CellularAutomata.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/barrier/CellularAutomata.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/barrier/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/thread_demo/JoinDemo.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/ConfigThreadPoolExecutor.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/Node.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/SequentialPuzzleSolver.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/SolverTask.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/ConcurrentPuzzleSolver.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/PuzzleSolver.java" />
+        <option value="$PROJECT_DIR$/src/concurrenttest/executor/pazzle/ValueLatch.java" />
       </list>
     </option>
   </component>
@@ -153,6 +154,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JavaDemo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/JavaDemo" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,41 +182,27 @@
               <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
               <item name="concurrenttest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrenttest" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="JavaDemo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/IdeaProjects/JavaDemo" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrenttest" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+              <item name="pazzle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,13 +215,21 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36617646" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/annotation/processor" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="concurrenttest.executor.pazzle" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,26 +244,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="FutureRender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.concurrenttest.FutureRender" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.concurrenttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestVisualAccumulator">
     <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.concurrenttest.JoinDemo" />
+      <option name="MAIN_CLASS_NAME" value="concurrenttest.thread_demo.JoinDemo" />
       <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.concurrenttest.*" />
+          <option name="PATTERN" value="concurrenttest.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,25 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Memoizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.concurrenttest.Memoizer" />
+    <configuration name="TestAlgs4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algs4.TestAlgs4" />
       <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.concurrenttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Render" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.concurrenttest.Render" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.concurrenttest.*" />
+          <option name="PATTERN" value="algs4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,13 +284,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.TestDemo" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVisualAccumulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algs4.chapter1.TestVisualAccumulator" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algs4.chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVisualAccumulator" />
+        <item itemvalue="Application.TestAlgs4" />
+        <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.JoinDemo" />
-        <item itemvalue="Application.Render" />
-        <item itemvalue="Application.FutureRender" />
-        <item itemvalue="Application.Memoizer" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577102634031</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update joint test">
+      <created>1577252955251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577252955252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -401,11 +415,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1234" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="42" y="23" width="1238" height="777" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17365772" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.18645485" />
+      <window_info id="Structure" order="1" sideWeight="0.50218976" side_tool="true" weight="0.18645485" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -438,7 +451,9 @@
     <MESSAGE value="add some test" />
     <MESSAGE value="add thread test" />
     <MESSAGE value="update concurrent test" />
-    <option name="LAST_COMMIT_MESSAGE" value="update concurrent test" />
+    <MESSAGE value="update joint test" />
+    <MESSAGE value="update executor test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update executor test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,7 +465,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/other/concurrenttest/Memoizer.java</url>
+          <url>file://$PROJECT_DIR$/src/concurrenttest/Memoizer.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="7" />
@@ -492,335 +507,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/executor/ExecutorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/executor/ExecutorMainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/executor/RunnableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/TestHarness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-          <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/CellularAutomata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
-          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1533" column="13" selection-start-line="1533" selection-start-column="13" selection-end-line="1533" selection-end-column="13" />
-          <folding>
-            <element signature="e#65240#65241#0" expanded="true" />
-            <element signature="e#65287#65288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/javafx-src.zip!/com/sun/scenario/effect/ImageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/BounderHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/Preloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="261" column="6" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="193" column="5" lean-forward="true" selection-start-line="190" selection-end-line="193" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="97" column="18" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6395">
-          <caret line="249" column="31" lean-forward="true" selection-start-line="249" selection-start-column="31" selection-end-line="249" selection-end-column="31" />
-          <folding>
-            <element signature="e#29802#29803#0" expanded="true" />
-            <element signature="e#29841#29842#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/FutureRender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="7" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="309" column="22" lean-forward="true" selection-start-line="309" selection-start-column="22" selection-end-line="309" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/Memoizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1086" column="10" selection-start-line="1086" selection-start-column="10" selection-end-line="1086" selection-end-column="10" />
-          <folding>
-            <element signature="e#22896#22897#0" expanded="true" />
-            <element signature="e#22925#22926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="256" column="16" selection-start-line="256" selection-start-column="16" selection-end-line="256" selection-end-column="16" />
-          <folding>
-            <element signature="e#9766#9767#0" expanded="true" />
-            <element signature="e#9813#9814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="383" column="7" lean-forward="true" selection-start-line="383" selection-start-column="7" selection-end-line="383" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/JoinDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="166" column="62" selection-start-line="166" selection-start-column="62" selection-end-line="166" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="278" column="42" lean-forward="true" selection-start-line="278" selection-start-column="42" selection-end-line="278" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="670" column="16" selection-start-line="670" selection-start-column="16" selection-end-line="670" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-          <folding>
-            <element signature="e#44253#44254#0" expanded="true" />
-            <element signature="e#44281#44282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1216" column="7" lean-forward="true" selection-start-line="1216" selection-start-column="7" selection-end-line="1216" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="3335" column="33" selection-start-line="3335" selection-start-column="32" selection-end-line="3335" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -832,7 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/ReaderThread.java">
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/ReaderThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
@@ -848,16 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/Render.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,9 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/TestBuild$Bean.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/TestBuild$Bean.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/nio/channels/spi/SelectorProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -889,24 +563,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/TestBuild.class">
+    <entry file="file://$PROJECT_DIR$/src/other/TestBuild.class" />
+    <entry file="file://$PROJECT_DIR$/src/other/TestBuild.java" />
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/Render.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/TestBuild.java">
+    <entry file="file://$PROJECT_DIR$/sdk/src/json/StringDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="102">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/json/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/json/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/json/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/json/ClassDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/json/ClassBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/Interval1D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="497" column="30" selection-start-line="497" selection-start-column="30" selection-end-line="497" selection-end-column="30" />
+          <folding>
+            <element signature="e#69532#69533#0" expanded="true" />
+            <element signature="e#69566#69567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/demo/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#259#260#0" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
@@ -914,10 +653,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/concurrenttest/FutureCancel.java">
+    <entry file="file://$PROJECT_DIR$/src/algs4/TestAlgs4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algs4/chapter1/TestVisualAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/thread_demo/SyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/thread_demo/ThreadCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/thread_demo/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/thread_demo/ThreadHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/thread_demo/InterruptDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/RunnableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/semaphore/BounderHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/barrier/CellularAutomata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/barrier/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/FutureCancel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/thread_demo/JoinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/Memoizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/Preloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/FutureRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/ExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/ExecutorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/ExecutorMainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="1203" column="5" lean-forward="true" selection-start-line="1203" selection-start-column="5" selection-end-line="1203" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="322" column="29" selection-start-line="322" selection-start-column="29" selection-end-line="322" selection-end-column="29" />
+          <folding>
+            <element signature="e#29802#29803#0" expanded="true" />
+            <element signature="e#29841#29842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/ir/annotations/Immutable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/SolverTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/ConfigThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/ValueLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/SequentialPuzzleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/PuzzleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/Puzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrenttest/executor/pazzle/ConcurrentPuzzleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
     
     |--datastructure 数据结构简单示例
     
-    |--executor 线程池简单示例
+    |--concurrenttest.executor 线程池简单示例
 
     |--pattern
     
