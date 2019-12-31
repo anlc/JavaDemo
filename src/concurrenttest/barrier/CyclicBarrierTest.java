@@ -8,11 +8,14 @@ public class CyclicBarrierTest {
     private final CyclicBarrier barrier;
 
     public CyclicBarrierTest() {
+        // 初始化
         barrier = new CyclicBarrier(3);
+//        barrier = new CyclicBarrier(3, () -> System.out.println("栅栏被打开时，执行的操作，可选参数"));
     }
 
     public void testMethod(int index) throws BrokenBarrierException, InterruptedException {
         System.out.println("call testMethod :" + index);
+        // 每等待三个线程到达，执行一次
         barrier.await();
         System.out.println("complete : " + index);
     }
@@ -24,9 +27,7 @@ public class CyclicBarrierTest {
             new Thread(() -> {
                 try {
                     cyclicBarrierTest.testMethod(finalI);
-                } catch (BrokenBarrierException e) {
-                    e.printStackTrace();
-                } catch (InterruptedException e) {
+                } catch (BrokenBarrierException | InterruptedException e) {
                     e.printStackTrace();
                 }
             }).start();

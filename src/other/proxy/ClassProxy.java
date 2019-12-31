@@ -5,6 +5,7 @@ import other.SetFlag;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 public class ClassProxy {
 
@@ -21,31 +22,27 @@ public class ClassProxy {
                 method.invoke(a, args);
                 System.out.println(proxy.getClass().getSimpleName());
                 System.out.println(method);
-                System.out.println(args);
-                return null;
+                System.out.println(Arrays.toString(args));
+                return a;
             }
         });
     }
 
     interface A {
-        void main();
+        void main(String arg, B b);
     }
 
     static class B implements A {
 
         @Override
-        public void main() {
+        public void main(String arg, B b) {
             System.out.println("--------");
-
-        }
-
-        void test() {
         }
     }
 
     public static void main(String[] args) {
         A aClass = new B();
         A a = (A) new ClassProxy(aClass).progress(A.class);
-        a.main();
+        a.main("123", new B());
     }
 }

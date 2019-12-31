@@ -13,9 +13,7 @@ public class CellularAutomata {
         this.mainBoard = mainBoard;
         int count = Runtime.getRuntime().availableProcessors();
         System.out.println("  count : " + count);
-        barrier = new CyclicBarrier(count, () -> {
-            mainBoard.commitNewValues();
-        });
+        barrier = new CyclicBarrier(count, () -> mainBoard.commitNewValues());
         workers = new Worker[count];
         for (int i = 0; i < count; i++) {
             workers[i] = new Worker(mainBoard.getSubBoard(count, i));

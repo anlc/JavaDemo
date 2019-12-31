@@ -2,15 +2,16 @@ package algs4.chapter1;
 
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
 
 public class TestVisualAccumulator {
 
     public static void main(String[] args) {
 //        int t = Integer.parseInt(args[0]);
         int t = 1000;
-        VisualAccumulator visualAccumulator = new VisualAccumulator(t, 1.9);
+        VisualAccumulator visualAccumulator = new VisualAccumulator(t, 1.0);
         for (int i = 0; i < t; i++) {
-            visualAccumulator.addDataValue(i);
+            visualAccumulator.addDataValue(StdRandom.uniform());
         }
         StdOut.println(visualAccumulator);
     }
@@ -24,7 +25,7 @@ public class TestVisualAccumulator {
         public VisualAccumulator(int trials, double max) {
             StdDraw.setXscale(0, trials);
             StdDraw.setYscale(0, max);
-            StdDraw.setPenRadius(.005);
+            StdDraw.setPenRadius(0.005);
         }
 
         public void addDataValue(double val) {
@@ -33,7 +34,7 @@ public class TestVisualAccumulator {
             StdDraw.setPenColor(StdDraw.DARK_GRAY);
             StdDraw.point(N, val);
             StdDraw.setPenColor(StdDraw.RED);
-            StdDraw.point(N, total / val);
+            StdDraw.point(N, total / N);
         }
 
         public double mean() {
