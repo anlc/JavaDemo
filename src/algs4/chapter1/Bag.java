@@ -2,39 +2,61 @@ package algs4.chapter1;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * 背包
  */
 public class Bag<Item> implements Iterable<Item> {
 
-    private List<Item> items;
-
-
-    public Bag() {
-        items = new ArrayList<>();
-    }
+    private Node<Item> first;
+    private int size;
 
     boolean isEmpty() {
-        return items.isEmpty();
+        return size == 0;
     }
 
     int size() {
-        return items.size();
+        return size;
     }
 
     void add(Item item) {
-        items.add(item);
+        Node<Item> oldNode = this.first;
+        Node<Item> newNode = new Node<>(item, oldNode);
+        first = newNode;
     }
 
     @Override
     public Iterator<Item> iterator() {
-        return items.iterator();
+        return new Iterator<Item>() {
+
+            private Node<Item> current = first;
+
+            @Override
+            public boolean hasNext() {
+                return current != null;
+            }
+
+            @Override
+            public Item next() {
+                Item data = current.data;
+                current = current.next;
+                return data;
+            }
+        };
+    }
+
+
+    class Node<Item> {
+        Item data;
+        Node<Item> next;
+
+        public Node(Item data, Node<Item> next) {
+            this.data = data;
+            this.next = next;
+        }
     }
 
     public static void main(String[] args) {
@@ -62,5 +84,17 @@ public class Bag<Item> implements Iterable<Item> {
 
         StdOut.printf("Mean: %.2f\n", mean);
         StdOut.printf("std dev: %.2f\n", std);
+    }
+
+    @Test
+    public void testBag() {
+        Bag<String> bag = new Bag<>();
+        bag.add("item 1");
+        bag.add("item 2");
+        bag.add("item 3");
+
+        for (String string : bag) {
+            StdOut.println(string);
+        }
     }
 }

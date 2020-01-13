@@ -2,6 +2,7 @@ package algs4.chapter1;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -9,31 +10,61 @@ import java.util.List;
 
 public class Stack<Item> implements Iterable<Item> {
 
-    private java.util.Stack<Item> items;
+    private Node<Item> first;
+    private int size;
 
     public Stack() {
-        items = new java.util.Stack<>();
     }
 
     void push(Item item) {
-        items.push(item);
+        Node<Item> oldNode = first;
+        first = new Node<>(item, oldNode);
+        size++;
     }
 
     Item pop() {
-        return items.pop();
+        Item item = first.data;
+        first = first.next;
+        size--;
+        return item;
     }
 
     int size() {
-        return items.size();
+        return size;
     }
 
     boolean isEmpty() {
-        return items.isEmpty();
+        return first == null;
     }
 
     @Override
     public Iterator<Item> iterator() {
-        return items.iterator();
+        return new Iterator<Item>() {
+
+            Node<Item> current = first;
+
+            @Override
+            public boolean hasNext() {
+                return current != null;
+            }
+
+            @Override
+            public Item next() {
+                Item data = current.data;
+                current = current.next;
+                return data;
+            }
+        };
+    }
+
+    private class Node<Item> {
+        Item data;
+        Node<Item> next;
+
+        public Node(Item data, Node<Item> next) {
+            this.data = data;
+            this.next = next;
+        }
     }
 
     public static void main(String[] args) {
@@ -61,5 +92,17 @@ public class Stack<Item> implements Iterable<Item> {
             }
         }
         StdOut.println(vals.pop());
+    }
+
+    @Test
+    public void testStack() {
+        Stack<String> stringStack = new Stack<>();
+        stringStack.push("item 1");
+        stringStack.push("item 2");
+        stringStack.pop();
+        stringStack.push("item 3");
+        for (String string : stringStack) {
+            StdOut.println(string);
+        }
     }
 }
