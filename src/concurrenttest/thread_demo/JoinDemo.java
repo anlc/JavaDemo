@@ -17,15 +17,16 @@ public class JoinDemo {
 
         Thread joinThread = new Thread(() -> {
             try {
+                System.out.println("join thread run --");
                 // 阻塞，等到上一线程执行完成再执行。注释这句话会先打印prev的log信息
-                prevThread.join(1000);
+                prevThread.join();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
-            System.out.println("join thread run --");
+            System.out.println("join thread complete --");
         });
 
-        joinThread.start();
         prevThread.start();
+        joinThread.start();
     }
 }

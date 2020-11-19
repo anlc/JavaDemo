@@ -13,11 +13,13 @@ public class SetFlag {
 
     @Test
     public void testSetFlag() {
-        flag |= EDIT_ABLE;      //1110
-        flag |= SELECT_ABLE;    // 100
-        flag |= CLICK_ABLE;     //  10
-        System.out.println(flag);
+        flag |= EDIT_ABLE;      //1000
         System.out.println(Integer.toBinaryString(flag));
+        flag |= SELECT_ABLE;    //1100
+        System.out.println(Integer.toBinaryString(flag));
+        flag |= CLICK_ABLE;     //1110
+        System.out.println(Integer.toBinaryString(flag));
+        System.out.println(flag);
 
         System.out.println((flag & EDIT_ABLE) != 0);
         System.out.println((flag & SELECT_ABLE) != 0);
@@ -27,7 +29,29 @@ public class SetFlag {
         System.out.println(flag);
     }
 
-    private void clear(){
+    private void clear() {
         flag &= 0;  //0
+    }
+
+    @Test
+    public void resetFlag() {
+//        flag |= EDIT_ABLE;      //1000
+//        System.out.println(Integer.toBinaryString(flag));
+//        flag |= SELECT_ABLE;    //1100
+//        System.out.println(Integer.toBinaryString(flag));
+//        flag |= CLICK_ABLE;     //1110
+//        System.out.println(Integer.toBinaryString(flag));
+//
+        boolean isSet = (flag & SELECT_ABLE) != 0;
+//        System.out.println("isSet:" + isSet);
+
+        flag &= ~SELECT_ABLE;
+
+        isSet = (flag & SELECT_ABLE) != 0;
+
+//        int editable = flag & EDIT_ABLE;
+        System.out.println(Integer.toBinaryString(flag));
+        System.out.println("isSet:" + isSet);
+
     }
 }
