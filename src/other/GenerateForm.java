@@ -1,12 +1,9 @@
 package other;
 
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
-
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.BufferedOutputStream;
-import java.io.FileOutputStream;
+import java.io.File;
 
 public class GenerateForm {
 
@@ -92,11 +89,12 @@ public class GenerateForm {
          */
         public void createImage(BufferedImage image, String fileLocation) {
             try {
-                FileOutputStream fos = new FileOutputStream(fileLocation);
-                BufferedOutputStream bos = new BufferedOutputStream(fos);
-                JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(bos);
-                encoder.encode(image);
-                bos.close();
+//                FileOutputStream fos = new FileOutputStream(fileLocation);
+//                BufferedOutputStream bos = new BufferedOutputStream(fos);
+//                JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(bos);
+//                encoder.encode(image);
+//                bos.close();
+                ImageIO.write(image, "JPG", new File(fileLocation));
             } catch (Exception e) {
                 e.printStackTrace();
             }
