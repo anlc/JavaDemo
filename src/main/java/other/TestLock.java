@@ -17,7 +17,6 @@ public class TestLock {
 
     public void printLog(Runnable runnable) {
         executor.execute(runnable);
-
     }
 
     public static void main(String[] args) {
@@ -34,7 +33,7 @@ public class TestLock {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    System.out.println(Thread.currentThread().getName() + ",item == : " + finalI);
+                    System.out.println(Thread.currentThread().getName() + ", item == : " + finalI);
                 }
             });
         }

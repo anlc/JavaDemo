@@ -5,7 +5,6 @@ import java.lang.reflect.Field;
 
 public class JsonTest {
 
-
     public static void main(String[] args) {
 
         ClassBean beans = newInstance();
