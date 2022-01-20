@@ -57,7 +57,6 @@ public class StrategyPattern {
 
         /**
          * 替换飞的行为
-         * @param flyBehavior
          */
         public void setFlyBehavior(FlyBehavior flyBehavior) {
             this.mFlyBehavior = flyBehavior;
@@ -65,7 +64,6 @@ public class StrategyPattern {
 
         /**
          * 替换呱呱叫的行为
-         * @param quackBehavior
          */
         public void setQuackBehavior(QuackBehavior quackBehavior) {
             this.mQuackBehavior = quackBehavior;
