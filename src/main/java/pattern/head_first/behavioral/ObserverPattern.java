@@ -1,4 +1,4 @@
-package pattern.head_first;
+package pattern.head_first.behavioral;
 
 import java.util.ArrayList;
 import java.util.List;

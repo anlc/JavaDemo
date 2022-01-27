@@ -1,4 +1,4 @@
-package pattern.head_first;
+package pattern.head_first.structural;
 
 public class DecoratorPattern {
 
