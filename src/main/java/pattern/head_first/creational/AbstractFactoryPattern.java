@@ -14,6 +14,9 @@ public class AbstractFactoryPattern {
             return pizza;
         }
 
+        /**
+         * 创建比萨由具体工厂实现
+         */
         protected abstract Pizza createPizza(String type);
     }
 
@@ -73,11 +76,11 @@ public class AbstractFactoryPattern {
     }
 
     public static void main(String[] args) {
+        // 通过不同地区的比萨店（具体工厂）创建各自风味的比萨
         PizzaStore nyPizzaStore = new NYPizzaStore();
         nyPizzaStore.orderPizza("ClamPizza");
 
         PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
         chicagoPizzaStore.orderPizza("ClamPizza");
-
     }
 }
